@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:skyblue;
+    --secondary-color:orange;
+    --tertiary-color:black;
+    --linear-gradient-primary:rgba(254,163,1,1.00);
+    --linear-gradient-card-1:rgba(222,245,255,1.00);
+    --linear-gradient-card-2:rgba(255,244,220,1.00);
+    --linear-gradient-card-3:rgba(238,225,255,1.00);
+
+
+}
+body{
+    max-width:1440px;
+    margin: 0 auto;
+}
