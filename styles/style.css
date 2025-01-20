@@ -1,14 +1,17 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font> {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-.quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
   
 
 :root{
@@ -25,13 +28,19 @@
 body{
     max-width:1440px;
     margin: 0 auto;
+    font-family: "Quicksand";
 }
 
 /* shared styles */
 .display-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+.display-flex-1{
+    display: flex;
+   
+   
 }
 .display-grid{
     display: grid;
@@ -40,6 +49,17 @@ body{
 .btn-primary{
     padding: 10px 40px;
     background-color: var(--secondary-color);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.description-title-1{
+    font-size: 1rem;
+    margin: 24px 0;
+}
+.btn-secondary{
+    padding: 10px 40px;
+    background-color: var(--tertiary-color);
     color: white;
     border-radius: 8px;
     border: none;
@@ -81,11 +101,43 @@ body{
 .navigation-link-4 a{
     color: rgb(93,88,239);
 }
+/* hero section related styles */
+.herotext {
+    width: 639px;
+    /* margin: 0 auto; */
+    height: 331px;
+    margin: 122px 0;
+}
+.hero-container{
+    gap: 50px;
+    justify-content: center;
+}
+.hero-png {
+    height: 575px;
+    /* width: 468px; */
+}
+.heading-title-1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:"Quicksand";
+    
+}
+#orange{
+    color: var(--secondary-color);
+
+}
+#blue{
+    color: var(--primary-color);
+}
+
+
+
 
 /* responsive related design */
 @media screen and (max-width:576px) {
     .navbar{
     padding: 20px ;
+    justify-content: space-between;
     }
  .navigation{
     display:none
@@ -99,4 +151,21 @@ body{
 #grabber{
     display: inline;
  }   
+ /* hero part  */
+ .hero-container{
+    flex-direction:column-reverse;
+   
+ }
+ .hero-png{
+    margin:0 auto;
+
+ }
+ .hero-png img{
+    max-width: 100%;
+    
+ }
+ .herotext{
+    max-width: 100%;
+    text-align: center;
+ }
 }
