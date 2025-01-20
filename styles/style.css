@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
 
 :root{
     --primary-color:skyblue;
@@ -18,4 +25,78 @@
 body{
     max-width:1440px;
     margin: 0 auto;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display-grid{
+    display: grid;
+  
+}
+.btn-primary{
+    padding: 10px 40px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Nav related style  */
+.hide{
+    display: none;
+}
+.navbar{
+
+    /* gap: 186px; */
+    /* align-items: center;
+    */
+    padding: 20px 0;
+}
+#school{
+    font-size: 32px;
+    font-weight: 400;
+}
+.navigation li{
+    list-style: none;
+}
+.navigation ul{
+  gap: 32px;
+}
+.navigation li a{
+    text-decoration: none;
+}
+.navigation-link-1 a{
+    color: rgb(254, 163, 1);
+}
+.navigation-link-2 a{
+    color: rgb(1, 172, 253);
+}
+.navigation-link-3 a{
+    color: rgb(5,212,223);
+}
+.navigation-link-4 a{
+    color: rgb(93,88,239);
+}
+
+/* responsive related design */
+@media screen and (max-width:576px) {
+    .navbar{
+    padding: 20px ;
+    }
+ .navigation{
+    display:none
+ } 
+.navbar >button{
+    display: none;
+}
+#school >h4{
+    display: none;
+}
+#grabber{
+    display: inline;
+ }   
 }
