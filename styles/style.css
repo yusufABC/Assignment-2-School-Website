@@ -411,6 +411,12 @@ footer{
     font-size: 1.5rem;
     margin-bottom: 20px;
  }
+
+ /* Marquee tag  */
+ .marq{
+    background-color: var(--linear-gradient-primary);
+    color:white
+ }
 /* responsive related design */
 @media screen and (max-width:576px) {
     .navbar{
