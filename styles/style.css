@@ -344,7 +344,7 @@ border:none;
     bottom: 10%;
 }
 .float-btn-2{
-    padding: 15px 40px;
+    padding: 1rem 2.3rem;
     background-color: #95B226;
     color: white;
     border-radius: 47px;
@@ -353,7 +353,7 @@ border:none;
     font-weight: 400;
 }
 .float-btn-3{
-    padding: 15px 40px;
+    padding: 1rem 2.3rem;
     background-color: #5D58F0;
     color: white;
     border-radius: 47px;
@@ -475,6 +475,11 @@ grid-template-areas: " story-card-2 story-card-3"
 
                         " story-card-4 story-card-5";
  }
+ .story-float-2-5{
+    position: relative;
+    left: 3%;
+    bottom: 7%;
+}
 
  /* responsive footer  */
 
