@@ -249,12 +249,21 @@ border:none;
     width: 540px;
    height: 337px;
  } */
-  .story-title{
+  .story-head-title{
     font-size: 3.5rem;
     font-weight: 600;
     font-family:"Quicksand";
     margin-bottom: 80px;
     text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+  }
+  .story-title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:"Quicksand";
+    margin-bottom: 80px;
+    
     margin-top: 140px;
   }
   .story-card-1{
@@ -280,7 +289,7 @@ border:none;
     grid-template-areas:"story-card-1 storycard-1 story-card-2 story-card-3"
 
                         "story-card-1 storycard-1 story-card-4 story-card-5";
-        gap: 20px;
+        gap: 10px;
         justify-content: center;
   }
   
@@ -289,17 +298,18 @@ border:none;
     width: 540px;
     height: 630px;
     background-color: white;
+    border-radius: 16px;
    
    
   }
   h3.story-title {
    
-    margin: 58px 38px;
+    margin: 25px 38px;
     font-size: 1.5rem;
 }
 .story-titles{
     font-size: 1rem;
-    margin:38px 28px;
+    margin:0px 28px;
     
 }
 .story-description {
@@ -314,15 +324,57 @@ border:none;
         border-radius: 16px 16px 0 0;
     
 }
+.float-btn{
+    padding: 20px 40px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 47px;
+    border: none; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+.story-float{
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+}
+.story-float-2-5{
+    position: relative;
+    left: 8%;
+    bottom: 10%;
+}
+.float-btn-2{
+    padding: 15px 40px;
+    background-color: #95B226;
+    color: white;
+    border-radius: 47px;
+    border: none; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+.float-btn-3{
+    padding: 15px 40px;
+    background-color: #5D58F0;
+    color: white;
+    border-radius: 47px;
+    border: none; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .story-card-2-5{
     width: 290px;
     height: 300px;
     border-radius: 16px;
     background-color: white;
 }
-.view-btn{
+.view{
     text-align: center;
-    margin-top: 100px;
+}
+.view-btn{
+    
+    margin: 100px 0;
+
     
 }
 /* responsive related design */
@@ -376,6 +428,20 @@ border:none;
  .arrow-btn{
     display: none;
  }
+ /* our story section  */
+.story-card-2-5{
+    width: calc(100% - 20px);
+}
+ .story-card-1{
+display: none;
+ }
+ .story-card-container{
+    margin-left: 15px;
+grid-template-areas: " story-card-2 story-card-3"
+
+                        " story-card-4 story-card-5";
+ }
+
 
 }
 
