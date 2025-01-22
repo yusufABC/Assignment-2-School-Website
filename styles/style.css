@@ -476,6 +476,14 @@ grid-template-areas: " story-card-2 story-card-3"
                         " story-card-4 story-card-5";
  }
 
+ /* responsive footer  */
+
+footer{
+    grid-template-columns: 1fr;
+    padding: 30px;
+    justify-items: baseline;
+    gap: 10px;
+}
 
 }
 
