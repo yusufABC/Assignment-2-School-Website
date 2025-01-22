@@ -272,5 +272,21 @@ border:none;
     max-width: 100%;
     text-align: center;
  }
+ .heading-title-1{
+    font-size: 32px;
+ }
+ .description-title-1{
+    font-size: 14px;
+ }
+ .heading-title{
+    margin-top: 10px;
+ }
+ /* curriculum section  */
+ #card-container{
+    flex-direction: column;
+ }
+ .arrow-btn{
+    display: none;
+ }
 }
 
