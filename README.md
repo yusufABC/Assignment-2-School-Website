@@ -50,7 +50,7 @@ Simply open the index.html file in your browser.
 ✅ Tip: You can use the "Live Server" extension in VS Code to preview the site.
 
 🌐 Live Link & Resources
-🔗 Live Preview: https://your-live-link.vercel.app
+🔗 Live Preview: [https://your-live-link.vercel.app](https://yusufabc.github.io/Assignment-2-School-Website/)
 
 📸 Screenshots: Included in /assets folder
 
